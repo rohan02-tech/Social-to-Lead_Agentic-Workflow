@@ -1,0 +1,28 @@
+{
+  "documents": [
+    {
+      "id": "pricing_basic",
+      "title": "Basic Plan",
+      "category": "pricing",
+      "content": "AutoStream Basic Plan costs $29 per month and includes 10 videos per month with 720p resolution."
+    },
+    {
+      "id": "pricing_pro",
+      "title": "Pro Plan",
+      "category": "pricing",
+      "content": "AutoStream Pro Plan costs $79 per month and includes unlimited videos, 4K resolution, and AI captions."
+    },
+    {
+      "id": "policy_refund",
+      "title": "Refund Policy",
+      "category": "policy",
+      "content": "AutoStream does not provide refunds after 7 days from the purchase date."
+    },
+    {
+      "id": "policy_support",
+      "title": "Support Policy",
+      "category": "policy",
+      "content": "AutoStream offers 24/7 support only for customers on the Pro plan."
+    }
+  ]
+}
