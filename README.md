@@ -85,3 +85,9 @@ State is stored in a shared `ConversationState` object that carries the latest u
 ## WhatsApp Deployment Using Webhooks
 
 To deploy this on WhatsApp, I would place the agent behind a lightweight FastAPI or Flask webhook service. WhatsApp messages would arrive through the Meta WhatsApp Business API webhook endpoint. The backend would validate the webhook signature, extract the sender ID and message text, restore that sender's conversation state from a database or Redis, and pass the text into the LangGraph workflow. After the graph returns the next response, the service would send it back through the WhatsApp send-message API. Lead captures could be stored in a CRM, Google Sheet, or internal sales API. This setup works well because each WhatsApp user maps naturally to one persistent conversation state, which makes multi-turn lead qualification reliable. 
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/rohan02-tech/Social-to-Lead_Agentic-Workflow.git
+cd Social-to-Lead_Agentic-Workflow
